@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto, sans-serif';
+}
+
+button{
+    background-color: blue;
+    color: #fff;
+    height:45px;
+    width: 188px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    font-weight: bolder;
+
+    &:hover{
+        background-color: rgb(46, 46, 165);
+    }
+}
